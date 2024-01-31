@@ -4,7 +4,7 @@ import { FaLinkedin, FaGithub, FaInstagram } from "react-icons/fa";
 
 function Body() {
   return (
-    <section id="#" className="pt-2 sm:pt-4 md:pt-0 flex items-center justify-center flex-col-reverse gap-5 md:gap-0 md:flex-row h-screen md:h-[90vh] w-full bg-gray-50 px-5 py-5 sm:px-6 lg:px-28">
+    <section id="#" className="pt-2 sm:pt-4 md:pt-0 flex items-center justify-center flex-col-reverse gap-10 md:gap-0 md:flex-row md:h-[90vh] w-full bg-gray-50 px-5 py-10 sm:px-6 lg:px-28">
       <div className="w-full md:w-1/2 flex flex-col items-center md:items-start justify-center gap-5 md:gap-8">
         <h2 className="text-3xl sm:text-4xl text-center md:text-left md:text-6xl font-bold text-zinc-800">
           Front-End React Developer 👋

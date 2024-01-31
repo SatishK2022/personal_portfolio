@@ -5,10 +5,10 @@ function About() {
   return (
     <section
       id="about"
-      className="w-full h-screen flex flex-col md:flex-row items-center justify-center gap-5 md:gap-0 px-5 py-5 sm:px-6 lg:px-16"
+      className="w-full md:h-screen flex flex-col md:flex-row items-center justify-center gap-5 md:gap-0 px-5 py-10 sm:px-6 lg:px-16"
     >
       <div className="w-full md:w-1/2 flex items-center justify-center">
-        <img className="w-4/5 object-contain rounded-md" src={about} alt="profile image" />
+        <img className="md:w-4/5 object-contain rounded-md" src={about} alt="profile image" />
       </div>
       <div className="w-full md:w-1/2 flex flex-col items-center md:items-start justify-center gap-3">
         <p className="text-lg md:text-xl uppercase font-bold text-blue-500">About Me</p>

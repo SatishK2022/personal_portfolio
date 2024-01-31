@@ -18,7 +18,7 @@ function Contact() {
           </h3>
         </div>
         <div className="w-full flex flex-col md:flex-row gap-5 items-center md:gap-20">
-          <div className="w-full flex items-center gap-3">
+          <div className="w-full flex flex-col md:flex-row items-center gap-1 md:gap-3">
             <div className="p-3 shadow-lg rounded-full">
               <FaMapLocationDot className="text-blue-500" size={30} />
             </div>
@@ -30,12 +30,12 @@ function Contact() {
             </div>
           </div>
 
-          <div className="w-full flex items-center gap-3">
+          <div className="w-full flex flex-col md:flex-row items-center gap-1 md:gap-3">
             <div className="p-3 shadow-lg rounded-full">
               <MdEmail className="text-blue-500" size={30} />
             </div>
             <div>
-              <h3 className="font-bold text-base md:text-xl">Mail</h3>
+              <h3 className="font-bold text-center md:text-left text-base md:text-xl">Mail</h3>
               <p className="text-zinc-600 cursor-pointer text-sm md:text-base hover:text-blue-600">
                 <a href="mailto:sk7399052@gmail.com">sk7399052@gmail.com</a>
               </p>

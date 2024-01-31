@@ -3,7 +3,7 @@ import { FaLinkedin, FaGithub, FaInstagram } from "react-icons/fa";
 
 function Footer() {
   return (
-    <div className="w-full px-5 py-5 sm:px-6 lg:px-8 bg-slate-700 text-white gap-5 md:gap-0 flex flex-col md:flex-row items-center justify-between">
+    <div className="w-full px-5 py-10 sm:px-6 lg:px-8 bg-slate-700 text-white gap-5 md:gap-0 flex flex-col md:flex-row items-center justify-between">
       <div>
         <p className="text-lg md:text-xl font-semibold">Copyright @ 2024 All rights reserved</p>
       </div>
