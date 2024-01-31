@@ -1,5 +1,5 @@
 import React from "react";
-import profile from "../../public/satish1.jpg";
+import profile from "../assets/Satish1.jpg";
 import { FaLinkedin, FaGithub, FaInstagram } from "react-icons/fa";
 
 function Body() {
