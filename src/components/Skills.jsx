@@ -31,7 +31,7 @@ function Skills() {
   return (
     <section
       id="skills"
-      className="w-full flex flex-col items-center justify-center bg-gray-50 px-5 py-20 md:py-20 sm:px-6 lg:px-20"
+      className="w-full flex flex-col items-center justify-center bg-gray-50 px-5 pt-16 py-8 md:py-20 sm:px-6 lg:px-20"
     >
       <p className="text-lg md:text-xl uppercase font-bold text-blue-500">skills</p>
       <h2 className="text-2xl md:text-3xl text-center mb-5 md:mb-10 md:text-left font-bold text-zinc-800">

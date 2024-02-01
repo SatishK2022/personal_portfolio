@@ -38,7 +38,7 @@ function Body() {
         </div>
       </div>
       <div className="w-full md:w-1/2 flex items-center justify-center">
-        <img className="w-52 sm:w-80 md:w-2/3 rounded-full" src={profile} alt="profile image" />
+        <img className="w-52 sm:w-80 md:w-2/3 rounded-tr-3xl rounded-bl-3xl" src={profile} alt="profile image" />
       </div>
     </section>
   );
