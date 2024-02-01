@@ -13,7 +13,7 @@ function Project({
 
     console.log(className)
   return (
-    <div className={`${className} w-full flex flex-col md:flex-row py-5 md:py-0 gap-4 md:gap-0`}>
+    <div className={`${className} w-full flex flex-col md:flex-row py-10 md:py-0 gap-4 md:gap-0`}>
       <div className="w-full md:w-3/5 flex items-center justify-center">
         <img className="md:h-2/3 object-contain rounded-xl" src={image} />
       </div>
