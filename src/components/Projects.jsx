@@ -1,38 +1,40 @@
 import React from "react";
 import Project from "./Project";
-import about from "../assets/about.jpg";
+import portfolio from "../assets/portfolio.png";
+import hotelGo from "../assets/hotelgo.png";
+import pokedex from "../assets/pokedex.png";
 
 function Projects() {
   const projects = [
     {
-      name: "Car Rental 🚗",
+      name: "Personal Portfolio",
       description:
-        "A Car Rental Website is an online platform that allows users to rent cars for personal or business use. The Website provides an interface for searching, comparing, and reserving cars.",
+        "A Personal Portfolio Website is an online platform that showcases information about the developer. The website provides an interface that displays details about the Developer and the skills that the developer possesses.",
       tech: ["React", "Tailwind"],
-      codeLink: "#",
-      liveLink: "http://satish-dev.vercel.app/",
-      image: about,
-      style: "flex-col md:flex-row"
+      codeLink: "https://github.com/SatishK2022/personal_portfolio",
+      liveLink: "http://satish-dev.vercel.app",
+      image: portfolio,
+      style: "flex-col md:flex-row",
     },
     {
       name: "Pokedex",
       description:
-        "A Pokedex Website is an online platform that allows users to search for the pokemon. The Website provides an interface for searching and details of the pokemon.",
+        "A Pokedex Website is an online platform that enables users to search for Pokémon. The website provides an interface for searching and accessing details about each Pokémon.",
       tech: ["React", "Tailwind"],
-      codeLink: "#",
-      liveLink: "http://satish-dev.vercel.app/",
-      image: about,
-      style: "flex-col md:flex-row-reverse "
+      codeLink: "https://github.com/SatishK2022/pokeDex",
+      liveLink: "https://pokedex-satishk2022.vercel.app",
+      image: pokedex,
+      style: "flex-col md:flex-row-reverse ",
     },
     {
-      name: "E-Learning Platform 📟",
+      name: "Hotel Go",
       description:
-        "A E-learning Website is an online platform that allows students to use it for Studying. The Website provides an interface for course search, login , and enroll",
+        "An online hotel booking website enables users to book hotels and resorts. Users can log in, sign up, and view available accommodations.",
       tech: ["React", "Tailwind", "Redux"],
-      codeLink: "#",
-      liveLink: "http://satish-dev.vercel.app/",
-      image: about,
-      style: "flex-col md:flex-row"
+      codeLink: "https://github.com/SatishK2022/hotel-booking-website",
+      liveLink: "https://hotelgo1.vercel.app",
+      image: hotelGo,
+      style: "flex-col md:flex-row",
     },
   ];
 

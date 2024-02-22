@@ -13,9 +13,14 @@ function Project({
 
     console.log(className)
   return (
-    <div className={`${className} w-full flex flex-col md:flex-row py-10 md:py-0 gap-4 md:gap-0`}>
+    <div
+      className={`${className} w-full flex flex-col md:flex-row py-10 md:py-0 gap-4 md:gap-0`}
+    >
       <div className="w-full md:w-3/5 flex items-center justify-center">
-        <img className="md:h-2/3 object-contain rounded-xl" src={image} />
+        <img
+          className="md:h-2/3 object-contain rounded-xl border ring-blue-500 duration-200 hover:ring-2  border-blue-500 shadow-lg"
+          src={image}
+        />
       </div>
       <div className="w-full md:w-2/5 flex flex-col items-center justify-center gap-5">
         <h3 className="text-xl md:text-2xl text-center font-bold text-zinc-800">
@@ -35,14 +40,14 @@ function Project({
             href={codeLink}
             target="_blank"
           >
-            Code <FaGithub size={20}/>
+            Code <FaGithub size={20} />
           </a>
           <a
             className="flex items-center gap-3 bg-blue-500 hover:bg-blue-600 shadow-md hover:shadow-xl text-white px-5 py-2 rounded-md transition-all duration-200 ease-in"
             href={liveLink}
             target="_blank"
           >
-            Live Demo <FaShareSquare size={20}/>
+            Live Demo <FaShareSquare size={20} />
           </a>
         </div>
       </div>
