@@ -9,11 +9,27 @@ export interface ExperienceItem {
 
 export const experience: ExperienceItem[] = [
   {
+    id: "wish-geeks",
+    company: "Wish Geeks Tech Serve",
+    role: "Full Stack Developer",
+    period: "May 2026 – Present",
+    current: true,
+    responsibilities: [
+      "Developing and maintaining full-stack web applications using React.js, Next.js, Node.js, and MongoDB",
+      "Designing and implementing scalable RESTful APIs and backend services for business-critical workflows",
+      "Integrating Redis for caching, session management, and performance optimization",
+      "Implementing message queue systems for asynchronous processing, notifications, and background job execution",
+      "Integrating Razorpay payment gateway, handling payment flows, and implementing secure webhook processing",
+      "Implementing Shiprocket APIs for order fulfillment, shipment tracking, and logistics automation",
+      "Collaborating with cross-functional teams to deliver responsive, scalable, and maintainable applications"
+    ]
+  },
+  {
     id: "starx-ai",
     company: "StarX AI Technology",
     role: "Full Stack Developer",
-    period: "Apr 2025 – Present",
-    current: true,
+    period: "Apr 2025 – Apr 2026",
+    current: false,
     responsibilities: [
       "Built and maintained full-stack web applications using Next.js and Node.js",
       "Developed Web3 integrations including wallet authentication flows",
@@ -35,20 +51,6 @@ export const experience: ExperienceItem[] = [
       "Implemented JWT-based authentication and authorization",
       "Optimized backend performance and database query efficiency",
       "Collaborated in Agile sprints with cross-functional teams",
-    ],
-  },
-  {
-    id: "pixel-tech",
-    company: "Pixel Tech Labs",
-    role: "Junior Software Engineer",
-    period: "Jul 2023 – May 2024",
-    current: false,
-    responsibilities: [
-      "Developed client-facing user interfaces using React and Tailwind CSS",
-      "Collaborated on responsive design implementations and cross-browser testing",
-      "Integrated third-party APIs for processing payment workflows and messaging",
-      "Wrote comprehensive unit and integration tests using Jest and React Testing Library",
-      "Optimized site performance, improving Google Lighthouse SEO score to 98+",
     ],
   },
 ];

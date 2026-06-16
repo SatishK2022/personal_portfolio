@@ -11,9 +11,9 @@ export default function Footer() {
         </p>
         <p className="text-[0.8rem] text-[#52525b]">
           Built with{" "}
-          <span className="text-[#f59e0b]">Next.js</span>
-          {" & "}
-          <span className="text-[#f59e0b]">Tailwind CSS</span>
+          <span className="text-[#f59e0b]">❤️</span>
+          {" By "}
+          <span className="text-[#f59e0b]">Satish Kumar</span>
         </p>
       </div>
     </footer>

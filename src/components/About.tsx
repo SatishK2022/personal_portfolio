@@ -43,7 +43,7 @@ export default function About() {
             </p>
 
             {/* Stat pills */}
-            <div className="flex flex-wrap gap-3 pt-2">
+            {/* <div className="flex flex-wrap gap-3 pt-2">
               {[
                 { n: "2+", label: "Years" },
                 { n: "10+", label: "Projects" },
@@ -58,7 +58,7 @@ export default function About() {
                   <span className="text-[0.75rem] text-[#71717a] font-medium">{s.label}</span>
                 </div>
               ))}
-            </div>
+            </div> */}
           </motion.div>
 
         </div>

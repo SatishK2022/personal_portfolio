@@ -140,8 +140,8 @@ export default function Hero() {
             Building{" "}
             <span className="text-[#d4d4d8] font-normal">scalable web applications</span>
             {", "}internal tools, and{" "}
-            <span className="text-[#d4d4d8] font-normal">Web3 products</span>
-            {" "}with modern JavaScript.
+            <span className="text-[#d4d4d8] font-normal">high-performance backend systems</span>
+            {" "}with modern technologies.
           </motion.p>
 
           {/* CTAs */}

@@ -20,14 +20,14 @@ export const skillCategories: SkillCategory[] = [
     label: "Infrastructure",
     skills: ["Docker", "CI/CD", "Nginx", "GCP", "GitHub"],
   },
-  {
-    id: "web3",
-    label: "Web3",
-    skills: [
-      "Ethers.js",
-      "Web3.js",
-      "Wallet Authentication",
-      "Smart Contract Integration",
-    ],
-  },
+  // {
+  //   id: "web3",
+  //   label: "Web3",
+  //   skills: [
+  //     "Ethers.js",
+  //     "Web3.js",
+  //     "Wallet Authentication",
+  //     "Smart Contract Integration",
+  //   ],
+  // },
 ];

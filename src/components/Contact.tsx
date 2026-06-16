@@ -8,15 +8,15 @@ const contactLinks = [
   {
     id: "email",
     label: "Email",
-    value: "satishkumar@example.com",
-    href: "mailto:satishkumar@example.com",
+    value: "business.satish01@gmail.com",
+    href: "mailto:business.satish01@gmail.com",
     icon: Mail,
   },
   {
     id: "linkedin",
     label: "LinkedIn",
-    value: "linkedin.com/in/satishkumar",
-    href: "https://linkedin.com/in/satishkumar",
+    value: "linkedin.com/in/satishk2024",
+    href: "https://linkedin.com/in/satishk2024",
     icon: Link2,
   },
   {
